@@ -1,0 +1,160 @@
+/* tekstien ja otsikoiden m��ritykset */
+
+/*Yleiset m��ritykset kohtaan body*/
+body{
+	background-color:#fff;
+	/*background-image:url(../kuvat/taustakuva.jpg);*/
+	background-repeat: no-repeat;
+	color:#444444;
+	font-size:15px;
+	font-family:"ubuntu";
+	line-height:150%;
+	margin:0px;
+	/*overflow:hidden; ei toimi ie:ssa ja firefoxissa. Chromessa ok.*/
+}
+
+/* Otsikoiden (H1-H3) ja tekstien (p) m��ritykset */
+h1{
+	font-size:24px;
+	font-family:"open sans";
+	color:#444444;
+}
+
+h2{
+	font-size:18px;
+	font-family:"open sans";
+	color:#444444;
+}
+h3{
+	font-size:16px;
+	font-family:"open sans";
+	color:#444444;
+
+}
+
+p{
+	color:#444444;
+	font-size:15px;
+	font-family:"ubuntu";
+	line-height:150%;
+}
+
+ul{
+	 list-style-type: circle; /* yleinen listauksien pampulat */
+}
+
+/*valikon m��rittely alkaa*/
+
+#valikko{       /*valikon divi*/
+	width:880px;
+	background-color:#fff;
+	text-align:center; 
+	margin-top:10px;
+	margin-left:5px;
+	margin-right:5px;
+	border-radius:10px; /*kulmien py�rristys*/
+	font-weight:bold;
+	font-family:"droid sans";
+	font-size:14px;
+	color:#fff;
+	padding-top:2px; /* taustan koon m��ritt�minen, ett� saa valikon tekstit keskitetty� halutusti*/
+	padding-bottom:2px; /* taustan koon m��ritt�minen, ett� saa valikon tekstit keskitetty� halutusti*/
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.valikko{
+	display:inline; /*tekee linkitetyn valikon rinnakain*/
+}
+
+li.valikko a{
+	padding-left:35px; /*taustaboxin leveys*/
+	padding-right:35px; /*taustaboxin leveys*/
+	padding-bottom:10px; /*taustaboxin koko*/
+	padding-top:10px;	/*taustaboxin koko*/
+	text-decoration:none; /* poistaa alleviivauksen */
+	background-color:#fff; /*boxin taustan v�ri*/
+	color:#000; /* tekstin v�ri*/
+	border-right: 1px solid #bbb; /* boxien v�liin border */
+	border-radius:8px;
+}
+
+li.valikko a:hover{  
+	background-color:#f3f3f3;
+}
+
+li.valittu a{				/*saadaan valittu sivu valikossa j��m��n aktiiviseksi. Sijoitettava jokaiselle sivulle omaan kohtaansa.*/
+
+	background-color:#fbfbfb;
+}
+
+ul.menu{
+	list-style-type:none; /* bulletit (pampulat) pois*/
+}
+
+/*valikon m��rittely loppuu */
+
+/* divien m��rittelyt alkaa */
+#uloin{ 
+	width:900px;
+	margin:0px auto; /* keskitt�� sivun n�ytt��n ja kiinni yl�reunaan */
+	background-color:transparent;
+	
+}
+
+#header{
+	width:900px;
+	height:200px;
+	margin-top:0px;
+	background-color:transparent;
+}
+
+#logo{
+	width:100px;
+	height:80px;
+	margin-left: 10px;
+	margin-top:-80px;
+	background-color:transparent;
+} */
+
+#sisalto{
+	width:700px;
+	padding-left:80px;
+	margin-top:50px;
+	margin-bottom:60px;
+	float:left;
+	min-height:500px;
+	
+}
+
+#gfx_sisalto{
+	width:700px;
+	padding-left:80px;
+	margin-top:50px;
+	margin-bottom:30px;
+	float:left;
+	
+}
+
+#etusisalto2{
+	width:700px;
+	padding-left:80px;
+	margin-top:50px;
+	margin-bottom:30px;
+	float:left;
+	
+}
+
+#footer{
+	width:895px;
+	height:80px;
+	color:#000;
+	text-align:center;
+	background-color:#fff;
+	clear:both;
+	padding-top:30px; 
+}
+
+#more {display: none;}
